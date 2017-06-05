@@ -97,6 +97,10 @@ footer {
     justify-content: space-between;
 }
 
+#footerContent div {
+    margin: 0 2rem;
+}
+
 #footerContent p {
     color: #e6e9ed;
     margin: 0;
