@@ -83,7 +83,6 @@ div.langDiv>h2 {
 }
 
 footer {
-    height: 4.5rem;
     box-shadow: inset 0px 53px 10px -51px rgba(0, 0, 0, 0.75);
     background-color: rgb(45, 45, 45);
 }
@@ -91,9 +90,10 @@ footer {
 #footerContent {
     max-width: 50rem;
     margin: 0 auto;
-    padding: 1.2rem 0;
+    padding: 1.3rem 0;
     font-size: 1.1em;
     display: flex;
+    align-content: center;
     justify-content: space-between;
 }
 
