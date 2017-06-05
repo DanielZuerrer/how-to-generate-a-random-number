@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    background-color: rgb(250, 250, 250);
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+#pageTitle {
+    margin: 4rem 0rem;
+    font-weight: 400;
+    color: rgb(173, 20, 87);
+}
+
+nav {
+    position: absolute;
+    left: 1em;
+    padding: 0rem 2rem;
+    border-left-color: rgb(173, 20, 87);
+    border-left-style: solid;
+    border-left-width: 5px;
+}
+
+nav.scrolling {
+    position: fixed;
+    top: 1em;
+}
+
+nav>ul {
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    list-style-position: outside;
+}
+
+nav>h1 {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+
+nav>ul>li>a {
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+    color: rgb(173, 20, 87);
+}
+
+pre.prettyprint {
+    border: none;
+    padding: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+div.langDiv {
+    margin: 2rem 0rem;
+    padding: 2rem 2rem;
+    background: #FFF;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+}
+
+div.langDiv>h2+p {
+    margin-top: 0rem;
+}
+
+div.langDiv>p {
+    margin-top: 2.5rem;
+    font-size: 1.1em;
+    text-align: right;
+    color: rgb(117, 117, 117);
+}
+
+div.langDiv>h2 {
+    color: rgb(173, 20, 87);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+    nav {
+        position: inherit;
+        padding: 0rem 2rem;
+        border-left-color: rgb(173, 20, 87);
+        border-left-style: solid;
+        border-left-width: 5px;
+    }
+    nav.scrolling {
+        position: inherit;
+    }
+    #pageTitle {
+        margin: 4rem 0rem 2rem 0rem;
+        font-weight: 400;
+        color: rgb(173, 20, 87);
+    }
+}
