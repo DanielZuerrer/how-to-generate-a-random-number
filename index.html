@@ -22,6 +22,7 @@
             <h1>Languages</h1>
             <ul>
                 <li><a data-scroll href="#csharp">C#</a></li>
+                <li><a data-scroll href="#fsharp">F#</a></li>
                 <li><a data-scroll href="#java">Java</a></li>
                 <li><a data-scroll href="#javaScript">JavaScript</a></li>
                 <li><a data-scroll href="#python">Python</a></li>
@@ -39,14 +40,29 @@ using System;</pre>
 
             <pre class="prettyprint">
 Random random = new Random();
-double randomNumber = random.NextDouble();;</pre>
+double randomNumber = random.NextDouble();</pre>
 
             <p>random integer in range [1,100]</p>
             <pre class="prettyprint">
 using System;</pre>
             <pre class="prettyprint">
 Random random = new Random();
-int randomNumber = random.Next(1,101);;</pre>
+int randomNumber = random.Next(1,101);</pre>
+
+        </div>
+        <!------------- F# Part -------------->
+
+        <div id="fsharp" class="langDiv">
+            <h2>F#</h2>
+            <p>random floating point number in range [0,1[</p>
+            <pre class="prettyprint">
+let random = System.Random()
+let randomNumber = random.NextDouble()</pre>
+
+            <p>random integer in range [1,100]</p>
+            <pre class="prettyprint">
+let random = System.Random()
+let randomNumber = random.Next(1,101)</pre>
 
         </div>
         <!------------- Java Part -------------->
