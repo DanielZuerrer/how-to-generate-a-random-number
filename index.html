@@ -21,6 +21,7 @@
         <nav>
             <h1>Languages</h1>
             <ul>
+                <li><a data-scroll href="#c">C</a></li>
                 <li><a data-scroll href="#csharp">C#</a></li>
                 <li><a data-scroll href="#fsharp">F#</a></li>
                 <li><a data-scroll href="#java">Java</a></li>
@@ -30,6 +31,28 @@
         </nav>
 
 
+        <!------------- C Part -------------->
+
+        <div id="c" class="langDiv">
+            <h2>C</h2>
+            <p>random floating point number in range [0,1[</p>
+            <pre class="prettyprint">
+#include &lt;stdlib.h&gt;
+#include &lt;time.h&gt;</pre>
+
+            <pre class="prettyprint">
+srand(time(NULL));
+long double randomNumber = (double)rand()/((double)RAND_MAX+1);</pre>
+
+            <p>random integer in range [1,100]</p>
+            <pre class="prettyprint">
+#include &lt;stdlib.h&gt;
+#include &lt;time.h&gt;</pre>
+            <pre class="prettyprint">
+srand(time(NULL));
+int randomNumber = (rand() % (101 - 1)) + 1;</pre>
+
+        </div>
         <!------------- C# Part -------------->
 
         <div id="csharp" class="langDiv">
