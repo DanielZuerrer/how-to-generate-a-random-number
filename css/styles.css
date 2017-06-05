@@ -17,7 +17,7 @@ body {
 
 nav {
     position: absolute;
-    left: 1em;
+    left: 8%;
     padding: 0rem 2rem;
     border-left-color: rgb(173, 20, 87);
     border-left-style: solid;
@@ -79,7 +79,7 @@ div.langDiv>h2 {
     margin-bottom: 0.5rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 85rem) {
     nav {
         position: inherit;
         padding: 0rem 2rem;
