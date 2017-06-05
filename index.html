@@ -139,6 +139,16 @@ randomNumber = random.randint(1,100)</pre>
         </div>
     </div>
 
+    <footer>
+        <div id="footerContent">
+            <div>
+                <p>Take a look at the <a href="https://github.com/DanielZuerrer/how-to-generate-a-random-number">GitHub Repository</a></p>
+            </div>
+            <div><a class="twitter-share-button" data-url="_" href="https://twitter.com/intent/tweet?size=large&text=Forgot+how+to+generate+random+numbers%3F+Check+https%3A%2F%2Fgoo.gl%2FB6NTbw">
+Tweet</a></div>
+        </div>
+    </footer>
+
     <script src="js/run_prettify.js"></script>
     <link rel="stylesheet" type="text/css" href="css/tranquilHeart.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -148,6 +158,24 @@ randomNumber = random.randint(1,100)</pre>
         smoothScroll.init();
     </script>
     <script src="js/main.js"></script>
+    <script>
+        window.twttr = (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+
+            t._e = [];
+            t.ready = function (f) {
+                t._e.push(f);
+            };
+
+            return t;
+        }(document, "script", "twitter-wjs"));
+    </script>
 </body>
 
 </html>
